@@ -17,17 +17,16 @@
 
         .flex-item {
             width: 100px;
-            /* height: 100px; */
             font-size: large;
             font-weight: 600;
             text-align: center;
             margin-top: 6px;
         }
-
+        
         .container {
             display: grid;
             grid-template-columns: 60% 40%;
-            grid-template-rows: 4px 200px 1fr 250px;
+            grid-template-rows: 1px 200px 1fr 250px;
             height: 100%;
             grid-template-areas:
                 "header header"
@@ -123,17 +122,22 @@
         .menu {
             display: flex;
         }
+
+        .top {
+            padding-left: 50px;
+            padding-top: 10px;
+        }
     </style>
 </head>
 
 <body>
-    <div>
-        <div>
+
+    <div class="top">
             <img src="./images/01.png" alt="Die Deutsch Nationalflagge" width="100" height="70">
             <h1>독일어 스터디</h1>
             <h2>(Deutsch Studieren)</h2>
-        </div>
     </div>
+    
     <header>
         <div class="menu">
             <button id="menu-button">

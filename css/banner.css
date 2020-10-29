@@ -21,6 +21,7 @@
     color: white;
     animation-name: slide;
     animation-duration: 2s;
+    animation-iteration-count: 1;
   }
   
   .banner > p {
@@ -30,6 +31,7 @@
     color: #eee;
     animation-name: opacity;
     animation-duration: 3s;
+    animation-iteration-count: 1;
   }
   
   @keyframes slide {
